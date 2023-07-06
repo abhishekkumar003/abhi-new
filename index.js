@@ -17,6 +17,10 @@ app.get('/call', (req,res)=>{
     res.send("<h1>Abhishek Kumar </h1>");
 })
 
+app.get('/ser', (req,res)=>{
+    res.send("<h1>Abhishek Kumar </h1>");
+})
+
 
 app.listen(PORT, ()=>{
     console.log(`Server running on PORT NO : ${PORT}`);
