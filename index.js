@@ -9,6 +9,10 @@ app.get('/', (req,res)=>{
     // res.send("Kaise Ho !!");
 })
 
+app.get('/about', (req,res)=>{
+    res.send("bubebfo2beu43fbubu2bfuibebfb3f9b9u3b4bfceeifbi20f234fib34fbu43fbub4uefbub4ubf");
+})
+
 app.listen(PORT, ()=>{
     console.log(`Server running on PORT NO : ${PORT}`);
 })
